@@ -1,0 +1,517 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Srisakdi:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Kanit;
+}
+
+header{
+    & nav{
+        justify-content: space-between;
+        background-image: linear-gradient(to right, #42A991,#64AFAC,#429AA9);
+        display: flex;
+        & .Logo{
+            justify-self: left;
+            display: flex;
+            margin: 0.2rem 0.5rem;
+            & img{
+                height: 40px;
+                width: 41px;
+            }
+        }
+        & .Menu{
+            align-items: center;
+            display: flex;
+            margin: 0 1rem;
+            & .HomePage{
+                & a{
+                    margin:  0 1rem;
+                    color:white;
+                    text-decoration: none;
+                }
+            }
+            & .MyWorks{
+                & a{
+                    padding: 0;  
+                    color:white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+main{
+    & .Welcome{
+        display: block;
+        margin-right: 70px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        & h1{
+            font-weight: bolder;
+            font-size: 20px;
+
+        }
+        & p{
+
+            font-size: 15px;
+
+        }
+    }
+
+
+    & .pic{
+        display:block;
+        margin-left: 20px;
+        & img{
+            height: 92px;
+            width: 120px;
+            margin-right: 20px;
+            margin-bottom: 50px;    
+        }
+    }
+}
+
+@media screen and (min-width:400px) {
+    
+    header{
+        & nav{
+            justify-content: space-between;
+            background-image: linear-gradient(to right, #42A991,#64AFAC,#429AA9);
+            display: flex;
+            & .Logo{
+                justify-self: left;
+                display: flex;
+                margin: 0.22rem 0.5rem;
+                & img{
+                    height: 40px;
+                    width: 41px;
+                }
+            }
+            & .Menu{
+                font-size: 20px;
+                align-items: center;
+                display: flex;
+                margin: 0 2rem;
+                & .HomePage{
+                    & a{
+                        margin:  0 1rem;
+                        color:white;
+                        text-decoration: none;
+                    }
+                }
+                & .MyWorks{
+                    & a{
+                        padding: 0 1rem;  
+                        color:white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    
+    }
+
+    main{
+    & .Welcome{
+        display: block;
+        margin-right: 130px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        & h1{
+            font-weight: bolder;
+            font-size: 20px;
+
+        }
+        & p{
+
+            font-size: 15px;
+
+        }
+    }
+
+
+    & .pic{
+        display:flexbox;
+        margin-left: 20px;
+        & img{
+            column-gap: 20px;
+            height: 130px;
+            width: 185px;
+            margin-right: 10px;
+            margin-bottom: 50px;    
+        }
+    }
+}
+}
+@media screen and (min-width:500px) {
+    
+    header{
+        & nav{
+            justify-content: space-between;
+            background-image: linear-gradient(to right, #42A991,#64AFAC,#429AA9);
+            display: flex;
+            & .Logo{
+                justify-self: left;
+                display: flex;
+                margin: 0.22rem 0.5rem;
+                & img{
+                    height: 40px;
+                    width: 41px;
+                }
+            }
+            & .Menu{
+                font-size: 26px;
+                align-items: center;
+                display: flex;
+                margin: 0 2.5rem;
+                & .HomePage{
+                    & a{
+                        margin:  0 1rem;
+                        color:white;
+                        text-decoration: none;
+                    }
+                }
+                & .MyWorks{
+                    & a{
+                        padding: 0 1rem;  
+                        color:white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    
+    }
+
+    main{
+    & .Welcome{
+        display: block;
+        margin-right: 70px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        & h1{
+            font-weight: bolder;
+            font-size: 25px;
+
+        }
+        & p{
+
+            font-size: 16px;
+
+        }
+    }
+
+
+    & .pic{
+        display:flexbox;
+        margin-left: 20px;
+        & img{
+            column-gap: 20px;
+            height: 150px;
+            width: 210px;
+            margin-right: 30px;
+            margin-bottom: 50px;    
+        }
+    }
+}
+}
+@media screen and (min-width:700px) {
+    
+    header{
+        & nav{
+            justify-content: space-between;
+            background-image: linear-gradient(to right, #42A991,#64AFAC,#429AA9);
+            display: flex;
+            & .Logo{
+                justify-self: left;
+                display: flex;
+                margin: 0.22rem 0.5rem;
+                & img{
+                    height: 40px;
+                    width: 41px;
+                }
+            }
+            & .Menu{
+                font-size: 28px;
+                align-items: center;
+                display: flex;
+                margin: 0 3.5rem;
+                & .HomePage{
+                    & a{
+                        margin:  0 1rem;
+                        color:white;
+                        text-decoration: none;
+                    }
+                }
+                & .MyWorks{
+                    & a{
+                        padding: 0 1rem;  
+                        color:white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    
+    }
+
+    main{
+    & .Welcome{
+        display: block;
+        margin-right:   90px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        & h1{
+            font-weight: bolder;
+            font-size: 28px;
+
+        }
+        & p{
+
+            font-size: 25px;
+
+        }
+    }
+
+
+    & .pic{
+        display:flexbox;
+        margin-left: 20px;
+        & img{
+            column-gap: 20px;
+            height: 223px;
+            width: 263px;
+            margin-right: 60px;
+            margin-bottom: 50px;    
+        }
+    }
+}
+}
+
+@media screen and (min-width:1000px) {
+    
+    header{
+        & nav{
+            justify-content: space-between;
+            background-image: linear-gradient(to right, #42A991,#64AFAC,#429AA9);
+            display: flex;
+            & .Logo{
+                justify-self: left;
+                display: flex;
+                margin: 0.22rem 0.5rem;
+                & img{
+                    height: 40px;
+                    width: 41px;
+                }
+            }
+            & .Menu{
+                font-size: 30px;
+                align-items: center;
+                display: flex;
+                margin: 0 4rem;
+                & .HomePage{
+                    & a{
+                        margin:  0 1rem;
+                        color:white;
+                        text-decoration: none;
+                    }
+                }
+                & .MyWorks{
+                    & a{
+                        padding: 0 1rem;  
+                        color:white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    
+    }
+
+    main{
+    & .Welcome{
+        display: block;
+        margin-right: 50px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        & h1{
+            font-weight: bolder;
+            font-size: 40px;
+
+        }
+        & p{
+
+            font-size: 35px;
+
+        }
+    }
+
+
+    & .pic{
+        display:flexbox;
+        margin-left: 20px;
+        & img{
+            column-gap: 20px;
+            height: 245px;
+            width: 290px;
+            margin-right: 100px;
+            margin-bottom: 50px;    
+        }
+    }
+}
+}
+
+
+@media screen and (min-width:1200px) {
+    
+    header{
+        & nav{
+            justify-content: space-between;
+            background-image: linear-gradient(to right, #42A991,#64AFAC,#429AA9);
+            display: flex;
+            & .Logo{
+                justify-self: left;
+                display: flex;
+                margin: 0.22rem 0.5rem;
+                & img{
+                    height: 40px;
+                    width: 41px;
+                }
+            }
+            & .Menu{
+                font-size: 30px;
+                align-items: center;
+                display: flex;
+                margin: 0 4.5rem;
+                & .HomePage{
+                    & a{
+                        margin:  0 1rem;
+                        color:white;
+                        text-decoration: none;
+                    }
+                }
+                & .MyWorks{
+                    & a{
+                        padding: 0 1rem;  
+                        color:white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    
+    }
+
+    main{
+    & .Welcome{
+        display: block;
+        margin-right: 70px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        & h1{
+            font-weight: bolder;
+            font-size: 50px;
+
+        }
+        & p{
+
+            font-size: 45px;
+
+        }
+    }
+
+
+    & .pic{
+        display:flexbox;
+        margin-left: 20px;
+        & img{
+            column-gap: 20px;
+            height: 305px;
+            width: 350px;
+            margin-right: 200px;
+            margin-bottom: 50px;    
+        }
+    }
+}
+}
+
+@media screen and (min-width:1500px) {
+    
+    header{
+        & nav{
+            justify-content: space-between;
+            background-image: linear-gradient(to right, #42A991,#64AFAC,#429AA9);
+            display: flex;
+            & .Logo{
+                justify-self: left;
+                display: flex;
+                margin: 0.22rem 0.5rem;
+                & img{
+                    height: 40px;
+                    width: 41px;
+                }
+            }
+            & .Menu{
+                font-size: 30px;
+                align-items: center;
+                display: flex;
+                margin: 0 4.5rem;
+                & .HomePage{
+                    & a{
+                        margin:  0 1rem;
+                        color:white;
+                        text-decoration: none;
+                    }
+                }
+                & .MyWorks{
+                    & a{
+                        padding: 0 1rem;  
+                        color:white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    
+    }
+
+    main{
+    & .Welcome{
+        display: block;
+        margin-right: 70px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        & h1{
+            font-weight: bolder;
+            font-size: 50px;
+
+        }
+        & p{
+
+            font-size: 45px;
+
+        }
+    }
+
+
+    & .pic{
+        display:flexbox;
+        margin-left: 50px;
+        & img{
+            column-gap: 20px;
+            height: 330px;
+            width: 386px;
+            margin-right: 240px;
+            margin-bottom: 50px;    
+        }
+    }
+}
+}
